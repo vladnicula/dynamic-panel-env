@@ -1,0 +1,19 @@
+{
+    "include": [
+        "./src/*"
+    ],
+    "compilerOptions": {
+        "lib": [
+            "dom",
+            "esnext"
+        ],
+        "module": "esnext",
+        "jsx": "react",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "types": [
+            "jest"
+        ]
+    }
+}
